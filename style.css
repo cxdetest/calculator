@@ -1,0 +1,62 @@
+::selection {
+  background-color: transparent;
+}
+.animate__animated.animate__bounceIn {
+  --animate-duration: 3s;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: #daeef5;
+  font-size: 17px;
+}
+*,
+*:before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1fda92;
+  overflow: hidden;
+}
+.container {
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px black inset;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #020a0d;
+}
+#screen {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset;
+  border-radius: 5px;
+}
+table {
+  text-align: center;
+  border-spacing: 10px;
+  margin-top: 20px;
+}
+td {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  width: calc(300px - 30px);
+  background-color: #294962;
+}
+td:active {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset;
+  border: none;
+}
+.operator {
+  background-color: #f9bc00;
+  color: #020a0d;
+}
